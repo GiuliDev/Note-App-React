@@ -62,7 +62,7 @@ export default function App() {
 
     async function createNewNote() {
         const newNote = {
-            body: "# Gib hier den Titel deiner Markdown-Notiz ein",
+            body: "# Gib hier den Titel deiner Markdown-Notiz ein ",
             createdAt: Date.now(),
             updatedAt: Date.now()
         }
