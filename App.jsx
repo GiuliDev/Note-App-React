@@ -62,7 +62,7 @@ export default function App() {
 
     async function createNewNote() {
         const newNote = {
-            body: "# Type your markdown note's title here",
+            body: "# Gib hier den Titel deiner Markdown-Notiz ein",
             createdAt: Date.now(),
             updatedAt: Date.now()
         }
@@ -108,12 +108,12 @@ export default function App() {
                     </Split>
                     :
                     <div className="no-notes">
-                        <h1>You have no notes</h1>
+                        <h1>Du hast noch keine Notizen</h1>
                         <button
                             className="first-note"
                             onClick={createNewNote}
                         >
-                            Create one now
+                            Erstelle hier eine Notiz
                 </button>
                     </div>
 
